@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const API_BASE_URL = "";
+const API_BASE_URL = "https://pyapi.dhfai.site";
 
 const ChatMessage = ({ message, aiIconUrl, isLastBotMessage }) => {
   const [renderedContent, setRenderedContent] = useState("");
